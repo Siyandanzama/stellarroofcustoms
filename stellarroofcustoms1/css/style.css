@@ -1,0 +1,237 @@
+.hero-section {
+    /* Link to the image using url() */
+    background-image: url('images/background.jpg');
+    
+    /* Control how the image behaves */
+    background-size: cover;        /* Scales the image to fill the container */
+    background-position: center;   /* Centers the image */
+    background-repeat: no-repeat;  /* Prevents the image from tiling */
+    
+    /* Give the container some height so the image is visible */
+    min-height: 500px; 
+
+}
+/* Smooth Scrolling Experience */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Ensure navbar centers cleanly in its space */
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Form element focus styles for the calculator */
+select:focus {
+    outline: 2px solid #9d4edd;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #050505;
+    color: white;
+    line-height: 1.6;
+}
+
+/* GLOBAL CONTAINER */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* NAVIGATION */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background: black;
+}
+
+.logo {
+    color: #9d4edd;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #9d4edd;
+}
+
+/* HERO */
+.hero {
+    height: 90vh;
+    background:
+        linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)),
+        url("../images/car1.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    padding: 0 20px;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero-content h2 {
+    font-size: 56px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.btn {
+    background: #9d4edd;
+    padding: 14px 32px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    display: inline-block;
+}
+
+.btn:hover {
+    background: #7b2cbf;
+    transform: translateY(-2px);
+}
+
+/* SERVICES */
+.services {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.services h2 {
+    margin-bottom: 50px;
+    font-size: 36px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #111;
+    padding: 35px;
+    width: 300px;
+    border-radius: 15px;
+    transition: 0.3s ease;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    background: #161616;
+}
+
+.card h3 {
+    color: #9d4edd;
+    margin-bottom: 15px;
+}
+
+/* GALLERY */
+.gallery {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.gallery h2 {
+    margin-bottom: 50px;
+    font-size: 36px;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.gallery-container img {
+    width: 320px;
+    border-radius: 15px;
+    transition: 0.3s ease;
+}
+
+.gallery-container img:hover {
+    transform: scale(1.05);
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    background: black;
+    margin-top: 50px;
+    opacity: 0.8;
+}
+footer-content {
+    display: flex;
+    justify-content: space-between; /* Spreads links and socials apart */
+    max-width: 1000px;
+    margin: 0 auto 20px auto;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-links a, .footer-socials a {
+    color: #a29bfe; /* A light purple to match your accent color */
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover, .footer-socials a:hover {
+    color: #ffffff; /* Turns white on hover */
+    text-shadow: 0 0 10px #a29bfe; /* Gives it a subtle glow like your form buttons */
+}
+
+.footer-divider {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, transparent, rgba(162, 155, 254, 0.3), transparent);
+    margin-bottom: 20px;
+}
+
+.copyright {
+    color: #888888;
+    font-size: 0.9rem;
+}
+   

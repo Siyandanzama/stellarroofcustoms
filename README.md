@@ -55,12 +55,14 @@ Contains:
 
 5. Contact Page (contact.html)
 Contains:
+
 .Contact information
 .Business locations
 .Contact form
 .Folder Structure
 
 Features Implemented
+
 .Responsive navigation bar
 .Hero image section
 .Hover effects and animations
@@ -72,6 +74,7 @@ Features Implemented
 
 
 The website was tested for:
+
 .Working navigation links
 .Proper page loading
 .Responsive layout
@@ -79,15 +82,18 @@ The website was tested for:
 .Cross-browser compatibility
 
 Browsers tested:
+
 .Microsoft Edge
 
 Challenges Encountered
+
 .Organising the project folder structure
 .Linking CSS and JavaScript files correctly
 .Styling responsive layouts
 .Managing image paths and navigation links
 
 Future Improvements
+
 .Add backend functionality
 .Implement online booking system
 .Add payment integration
@@ -95,6 +101,7 @@ Future Improvements
 .Add mobile menu functionality
 
 References
+
 Design Inspiration
 Behance. (2024). Web Design Inspiration.
 Dribbble. (2024). UI/UX Website Examples.

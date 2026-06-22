@@ -100,6 +100,25 @@ Future Improvements
 .Improve animations and transitions
 .Add mobile menu functionality
 
+## Changelog
+
+### Version 1.0
+.Created website structure
+.Added navigation menu
+
+### Version 1.1
+.Added homepage hero section
+.Added service cards
+
+### Version 1.2
+.Added enquiry form
+
+### Version 1.3
+.Added gallery lightbox
+
+### Version 1.4
+.Added SEO optimisation
+
 References
 
 Design Inspiration
